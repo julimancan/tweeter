@@ -1,0 +1,41 @@
+
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.gossip {
+  background-color: rgb(199, 6, 6);
+  font-family: 'Bungee';
+}
+
+
+.button-text {
+  font-size: smaller;
+}
+
+.button-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+textarea {
+  width: 100%;
+  border-style: line;
+  border-bottom: solid;
+  padding-bottom: 100px;
+}
+
+.counter {
+  font-family: 'Bungee';
+}
+
+.counter.positive {
+  color: green;
+}
+
+.counter.negative {
+  color: red;
+}
+

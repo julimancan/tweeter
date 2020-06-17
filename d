@@ -1,0 +1,150 @@
+[33mcommit c83bdd71298394cf32ffa6a2a6b73bb1dd250d14[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sean Goresht <seangores@gmail.com>
+Date:   Tue Jan 28 14:27:38 2020 -0700
+
+    update jQuery and normalize.css to latest version via CDN
+
+[33mcommit 812263f2a38ff02eb42f0dd1a625d85cf8e6b195[m
+Merge: 641e04f e6131b9
+Author: Khurram Virani <kvirani@users.noreply.github.com>
+Date:   Wed Oct 23 14:52:40 2019 -0700
+
+    Merge pull request #57 from asmitab/master
+    
+    Issue #56: Filename "app.js" is misleading
+
+[33mcommit e6131b996e4121063e87acebeb1b8e4a5acf7487[m
+Author: Asmita Barve-Karandikar <asmitak83@gmail.com>
+Date:   Thu Oct 10 12:29:47 2019 -0700
+
+    Updating reference to app.js
+
+[33mcommit ff97aa33faaeee09ef9c2a89161f84b9fa50f48c[m
+Author: Asmita Barve-Karandikar <asmitak83@gmail.com>
+Date:   Thu Oct 10 12:20:17 2019 -0700
+
+    Rename app.js to client.js
+
+[33mcommit 38c7b5cf349196e1ef360ad898dc6e0b5fa969c4[m
+Author: Asmita Barve-Karandikar <asmitak83@gmail.com>
+Date:   Thu Oct 10 12:16:08 2019 -0700
+
+    Rename app.js to render.js
+
+[33mcommit 641e04f0c9fe00d5298ed80f6f09de837dd6524f[m
+Merge: b6dbe29 8927efc
+Author: Amy Mansell <amy@lighthouselabs.ca>
+Date:   Tue Jul 9 13:49:42 2019 -0400
+
+    Merge pull request #53 from lighthouse-labs/update
+    
+    Updated starter files for improved Tweeter design
+
+[33mcommit 8927efcb6052ae218ebac69720d98bd1efa85305[m
+Author: notadeejay <amy@lighthouselabs.ca>
+Date:   Wed Apr 3 11:48:52 2019 -0400
+
+    updated html to reflect finished project code
+
+[33mcommit 50e2f4f24679497eef297eea5c8de9c64fadc2a4[m
+Author: notadeejay <amy@lighthouselabs.ca>
+Date:   Tue Mar 19 13:38:45 2019 -0400
+
+    added profile img
+
+[33mcommit c0bfe2dbfe109b5b506adf147686f1b848ab57cf[m
+Author: notadeejay <amy@lighthouselabs.ca>
+Date:   Tue Mar 19 13:38:08 2019 -0400
+
+    update init css file
+
+[33mcommit e91cae90dc87a0c14ab11d2ba5b7c87eb777dce2[m
+Author: notadeejay <amy@lighthouselabs.ca>
+Date:   Tue Mar 19 13:35:51 2019 -0400
+
+    updated userhelper
+
+[33mcommit b6dbe295129f3dfebf8c853bf42f157d8f7ae117[m
+Author: V <v@tryptid.com>
+Date:   Sun Jul 16 14:56:32 2017 -0700
+
+    Add pull request template, tell students not to PR
+    
+    Students often make PRs for their feature branches (I'm guessing they see the prompt in Github when they push to their own fork, and just go for it). It mostly seems to happen in this repo (they probably know better after midterms).
+    
+    The pull request template will give them something to read about it.
+
+[33mcommit 1ae92a3dc51c9a10ade9887b205b1ec6139b34f5[m
+Merge: d453909 12c4476
+Author: Khurram Virani <kvirani@users.noreply.github.com>
+Date:   Wed Apr 5 17:17:59 2017 -0700
+
+    Merge pull request #13 from hora/update-readme
+    
+    Updates readme
+
+[33mcommit 12c4476f08ca20f24cd2548fd4ab1221ccd54a08[m
+Author: Horatiu Halmaghi <hhalmaghi@gmail.com>
+Date:   Wed Apr 5 18:57:27 2017 -0400
+
+    updates readme
+
+[33mcommit d453909373182723ff734be1bc22d7fa9ec86911[m
+Merge: acd2afb 1f0a77c
+Author: V <v@tryptid.com>
+Date:   Fri Nov 18 06:00:44 2016 -0800
+
+    Merge pull request #6 from jensen/master
+    
+    Adding Mac OS finder .DS_Store file to .gitignore.
+
+[33mcommit 1f0a77c2d747e40b426bf2e6c8e6046b9eea1182[m
+Author: Karl Jensen <karljensen@gmail.com>
+Date:   Thu Nov 17 23:31:01 2016 -0800
+
+    Adding Mac OS finder .DS_Store file to .gitignore.
+
+[33mcommit acd2afbf62b0751111ff66495da0f8018c18ab32[m
+Merge: 23fc55e da633db
+Author: V <v@tryptid.com>
+Date:   Thu Nov 17 08:40:42 2016 -0800
+
+    Merge pull request #4 from vaz/de-confusify
+    
+    An attempt to ease the expected transition to Mongo
+
+[33mcommit da633dbe3b1296c7dcfec707f7aecbdaa42668de[m
+Author: vaz <v@tryptid.com>
+Date:   Thu Nov 17 04:37:03 2016 -0800
+
+    Add a few comments for clarity
+
+[33mcommit ae62ebd7300a93c08e82346b1f5150b603222d96[m
+Author: vaz <v@tryptid.com>
+Date:   Wed Nov 16 15:30:53 2016 -0800
+
+    Rename tweet-data to data-helpers
+
+[33mcommit 7f0dc880d567fd1764547de74cee5f9c7935d2c5[m
+Author: vaz <v@tryptid.com>
+Date:   Wed Nov 16 15:22:29 2016 -0800
+
+    Rename resources/ to data-files/
+
+[33mcommit 71a6c00c8ebef6d7ff946bc7a79ca8ca56cbc8a0[m
+Author: vaz <v@tryptid.com>
+Date:   Wed Nov 16 11:47:51 2016 -0800
+
+    Rename simulateAsync to simulateDelay
+
+[33mcommit 6e375b6781e69ae6cbefd017aac4d68bb781c9b0[m
+Author: vaz <v@tryptid.com>
+Date:   Wed Nov 16 03:36:04 2016 -0800
+
+    An attempt to ease the expected transition to Mongo
+
+[33mcommit 23fc55e360f9d99e97b5c64327be9ea29e4dff65[m
+Author: Rafal Dittwald <rafal.dittwald@gmail.com>
+Date:   Sun Oct 16 19:19:33 2016 -0400
+
+    Init Commit

@@ -1,29 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+
     <!-- Meta Information -->
-    <title>Tweeter - Home Page</title>
+    <title>Gossiper- Home Page</title>
 
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
 
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
-  </head>
+    <script type="text/javascript" src="/scripts/composer-char.js"></script>
+</head>
 
-  <body>
+<body>
     <!-- Top nav bar (fixed) -->
     <nav>
-      <span>tweeter</span>
+        <span>Gossiper</span>
+        <em>New Gossip</em>
     </nav>
-
+    <header>
+        <div class='avatar'>
+            <img src="/images/profile-hex.png">
+        </div>
+        <div>
+            <h2>Your Name</h2>
+        </div>
+    </header>
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
-  </body>
+    <main class="container">
+        <section class="new-tweet">
+            <h2 class="gossip-here">Gossip HERE:</h2>
+            <form method=POST id="form" action='/tweets/' class="form">
+                <!-- <label for="tweet-text" class="button-text">What are you gossipping about?</label> -->
+                <input name="newTweet" id="tweet-text"></input>
+
+                <div class="button-area">
+                    <button type="submit" class="gossip">Gossip</button>
+                    <output name="counter" class="counter" for="tweet-text">140</output>
+                </div>
+            </form>
+        </section>
+        <section id="tweet-container" class='list'>
+            <article class="tweet">
+                <div>
+                    <h4>Newton</h4>
+                    <div class="id">@newton</div>
+                </div>
+                <p class="gossipText">If I have seen whatever!</p>
+                <div class="footer">10 days ago
+                    <div class="socials">L F R</div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+</body>
+
 </html>
