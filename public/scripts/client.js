@@ -16,15 +16,20 @@ const createTweetElement = (tweetObj) => {
     const $tweet = $("#tweet-container");
     $("time.timeago").timeago();
 
+    $(".link-to-text").click(function() {
+        $("#tweet-textet").focus();
+    });
+
+
     const html = `<div class="tweet">
             <section class="tweet-header">
                 <div class="avatar-name"><img src="${
-                  tweetObj.user.avatars
-                }"><h4>${tweetObj.user.name}</h4></div>
+  tweetObj.user.avatars
+}"><h4>${tweetObj.user.name}</h4></div>
 			    <div class="id">${tweetObj.user.handle}</div>
             </section>
 
-			<p class="gossipText">${escape(tweetObj.content.text)}</p>
+			<div class="gossipText">${escape(tweetObj.content.text)}</div>
             
             <div class="footer">${$.timeago(tweetObj.created_at)}
              <div class="icons"><i class="fas fa-flag"></i> <i class="fas fa-retweet"></i> <i class="fas fa-heart"></i></div>

@@ -23,7 +23,7 @@ textarea {
     width: 100%;
     border-style: line;
     border-bottom: solid;
-    padding-bottom: 100px;
+    padding-bottom: 100em;
 }
 
 .counter {
@@ -40,11 +40,11 @@ textarea {
 
 .error {
     display: none;
-    border: 1px solid;
-    margin: 10px 0px;
-    padding: 15px 10px 15px 50px;
+    border: 1em solid;
+    margin: 10em 0em;
+    padding: 15em 10em 15em 50em;
     background-repeat: no-repeat;
-    background-position: 10px center;
+    background-position: 10em center;
     color: #D8000C;
     background-color: #FFBABA;
     background-image: url('https://i.imgur.com/GnyDvKN.png');

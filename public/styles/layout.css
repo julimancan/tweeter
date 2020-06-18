@@ -47,6 +47,11 @@
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
         
+        .header-tweets {
+            display: flex;
+            flex-direction: column;
+        }
+        
         @media (min-width: 600px) {
             .header-tweets {
                 display: flex;
@@ -56,16 +61,8 @@
                 width: 75%;
                 margin-top: 5em;
             }
-            .avatar {
-                max-width: 25%;
-                margin-right: 5em;
-            }
             .id {
                 font-size: smaller;
-            }
-            header {
-                margin-top: 3em;
-                align-items: center;
             }
             h4 {
                 font-size: smaller;
@@ -77,8 +74,6 @@
         
         @media (min-width: 800px) {
             .header-tweets {
-                width: 800px;
-                margin-left: auto;
-                margin-right: auto;
+                width: 100%;
             }
         }
