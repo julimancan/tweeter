@@ -1,10 +1,15 @@
 header {
-  height: 400px;
-  display: flex;
-  flex-direction: column ;
-  align-items: center;
-  background-color: #c28910;
-  background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
-  width: 100%;
-  margin-top: 5em;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c28910;
+    background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
+    width: 100%;
+    margin-top: 5em;
+    justify-content: space-around;
+}
+
+.avatar {
+    margin-top: 4em;
 }

@@ -42,17 +42,29 @@ $(document).ready(() => {
     $("form").submit(function(event) {
         event.preventDefault();
         console.log("prevented!");
-        console.log("serialized form", $("#form").serialize());
-        $.ajax({
-                method: "POST",
-                url: "/tweets",
-                data: $(this).serialize(),
-            })
-            .then(function(res) {
-                loadTweets();
-            })
-            .catch((err) => {
-                console.log("error", err);
-            });
+        // console.log("serialized form", $("#form").serialize());
+        const serializedInput = $(this).serialize();
+        // console.log(serializedInput)
+        // console.log("counter", $('.counter').val())
+        const counter = $('.counter').val();
+
+        if (serializedInput === "text=") {
+            alert("There is no gossip to be posted, please fill up the empty space with some juicy gossip!!!")
+        } else if (counter < 0) {
+            alert("Your Gossip is too long please make it smaller");
+        } else {
+            $.ajax({
+                    method: "POST",
+                    url: "/tweets",
+
+                    data: serializedInput
+                })
+                .then(function(res) {
+                    loadTweets();
+                })
+                .catch((err) => {
+                    console.log("error", err);
+                });
+        }
     });
 });
