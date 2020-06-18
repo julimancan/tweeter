@@ -29,6 +29,7 @@ const createTweetElement = (tweetObj) => {
             
             <div class="footer">${$.timeago(tweetObj.created_at)}
                 <div class="socials">L F R</div>
+                <i class="fas fa-flag"></i> <i class="fas fa-retweet"></i> <i class="fas fa-heart"></i>
             </div>
 	    </div>`;
     $tweet.prepend(html);

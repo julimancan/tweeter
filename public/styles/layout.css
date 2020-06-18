@@ -1,49 +1,81 @@
-/*
+        /*
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-
-/*
+        
+        html {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        /*
  * Global layout stuff
  */
-
-body {
-    display: flex;
-    color: #545149;
-    background-color: #f4f1ec;
-    font-size: 24px;
-    font-family: 'Source Sans Pro', sans-serif;
-    flex-direction: column;
-    align-items: center;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    width: 90%;
-    border-color: #FF0000;
-    padding-bottom: 1.5em;
-    flex-direction: column;
-}
-
-
-/*
+        /*         
+        .header-tweets {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+        }
+         */
+        
+        body {
+            display: flex;
+            color: #545149;
+            background-color: #f4f1ec;
+            font-size: 24px;
+            font-family: 'Source Sans Pro', sans-serif;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        main {
+            display: flex;
+            align-items: center;
+            width: 90%;
+            border-color: #FF0000;
+            padding-bottom: 1.5em;
+            flex-direction: column;
+        }
+        /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
-
-
-/* .id:hover {
-   visibility: visible;
-} */
+        
+        @media (min-width: 600px) {
+            .header-tweets {
+                display: flex;
+                flex-direction: row;
+            }
+            .container {
+                width: 75%;
+                margin-top: 5em;
+            }
+            .avatar {
+                max-width: 25%;
+                margin-right: 5em;
+            }
+            .id {
+                font-size: smaller;
+            }
+            header {
+                margin-top: 3em;
+                align-items: center;
+            }
+            h4 {
+                font-size: smaller;
+            }
+        }
+        
+        @media (min-width: 800px) {
+            .header-tweets {
+                width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }

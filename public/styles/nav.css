@@ -1,28 +1,45 @@
-nav {
-  display: flex;
-  align-items: center;
-  background-color: rgb(153, 10, 10);
-  display: flex;
-  justify-content: space-between;
-  font-size: 150%;
-  color: rgb(238, 167, 15);
-  height: 120px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-}
-
-em {
-  padding-right: 1.5em;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
-  font-size: 3vh;
-  font-weight: 600;
-}
-
-span {
-  padding-left: 1.5em;
-  padding-bottom: 1.5em;
-  padding-top: 1.5em;
-  font-family: 'Bungee';
-}
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 150%;
+      color: rgb(153, 10, 10);
+      width: 100%;
+      position: fixed;
+      top: 0
+  }
+  
+  em {
+      padding-right: 1.5em;
+      padding-bottom: 1.5em;
+      padding-top: 1.5em;
+      font-size: 3vh;
+      font-weight: 600;
+  }
+  
+  span {
+      padding-left: 1.5em;
+      padding-bottom: 1.5em;
+      padding-top: 1.5em;
+      font-family: 'Bungee';
+  }
+  
+  @media (min-width: 600px) {
+      nav {
+          background-color: rgb(153, 10, 10);
+          color: rgb(238, 167, 15);
+      }
+      /* em {
+          padding-right: 1.5em;
+          padding-bottom: 1.5em;
+          padding-top: 1.5em;
+          font-size: 3vh;
+          font-weight: 600;
+      }
+      span {
+          padding-left: 1.5em;
+          padding-bottom: 1.5em;
+          padding-top: 1.5em;
+          font-family: 'Bungee';
+      } */
+  }

@@ -1,16 +1,28 @@
 header {
     height: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: #c28910;
     background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
     width: 100%;
-    margin-top: 5em;
+    /* margin-top: 5em; */
     justify-content: space-around;
     padding-bottom: 3em;
 }
 
 .avatar {
-    margin-top: 4em;
+    margin-top: 6em;
+    /* height: 1em; */
+}
+
+.user-name {
+    margin-top: 6em;
+}
+
+@media (min-width: 600px) {
+    header {
+        flex-direction: column;
+        margin-top: 5em;
+    }
 }
