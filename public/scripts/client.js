@@ -16,7 +16,7 @@ const createTweetElement = (tweetObj) => {
     const $tweet = $("#tweet-container");
     $("time.timeago").timeago();
 
-    $(".link-to-text").click(function() {
+    $("#link-to-text").click(function() {
         $("#tweet-textet").focus();
     });
 
@@ -59,6 +59,9 @@ const loadTweets = function() {
 //renders the whole page
 
 $(document).ready(() => {
+    $('#link-to-text').click(function() {
+        $('#tweet-text').focus();
+    });
     loadTweets();
 
     $("form").on("submit", function(event) {
