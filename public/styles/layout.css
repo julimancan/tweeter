@@ -70,6 +70,9 @@
             h4 {
                 font-size: smaller;
             }
+            .new-tweet {
+                margin-top: -6em;
+            }
         }
         
         @media (min-width: 800px) {

@@ -84,3 +84,12 @@
     padding-top: 1em;
     margin-bottom: .5em;
 }
+
+.icons {
+    opacity: .3;
+}
+
+.tweet:hover .icons {
+    opacity: 1;
+    font-weight: 0.15em;
+}

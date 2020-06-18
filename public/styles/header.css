@@ -6,23 +6,32 @@ header {
     background-color: #c28910;
     background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
     width: 100%;
-    /* margin-top: 5em; */
     justify-content: space-around;
     padding-bottom: 3em;
+    height: 12em;
 }
 
 .avatar {
-    margin-top: 6em;
+    margin-top: 3em;
     /* height: 1em; */
 }
 
 .user-name {
-    margin-top: 6em;
+    margin-top: 3em;
 }
 
 @media (min-width: 600px) {
     header {
         flex-direction: column;
-        margin-top: 5em;
+        margin-top: 0em;
+        height: 15em
+    }
+    .avatar {
+        margin-top: 3em;
+        /* height: 1em; */
+        margin-left: -1em;
+    }
+    .user-name {
+        margin-top: -1em;
     }
 }
