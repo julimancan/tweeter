@@ -56,6 +56,12 @@ main {
     list-style-type: none;
 }
 
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tweet {
     width: 90%;
     border-style: dashed;
@@ -64,7 +70,7 @@ main {
     margin-bottom: .5em;
 }
 
-.tweet div {
+.tweet-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -116,6 +122,7 @@ main {
 .footer {
     font-size: x-small;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
@@ -128,8 +135,10 @@ main {
     margin-bottom: .5em;
 }
 
-.tweet-container {
+.avatar {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: ; */
+    max-height: 2em;
+    /* max-width: auto; */
     align-items: center;
 }
