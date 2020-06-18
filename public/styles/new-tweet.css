@@ -1,41 +1,52 @@
-
 .new-tweet {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 1em;
 }
 
 .gossip {
-  background-color: rgb(199, 6, 6);
-  font-family: 'Bungee';
+    background-color: rgb(199, 6, 6);
+    font-family: 'Bungee';
 }
 
-
 .button-text {
-  font-size: smaller;
+    font-size: smaller;
 }
 
 .button-area {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 textarea {
-  width: 100%;
-  border-style: line;
-  border-bottom: solid;
-  padding-bottom: 100px;
+    width: 100%;
+    border-style: line;
+    border-bottom: solid;
+    padding-bottom: 100px;
 }
 
 .counter {
-  font-family: 'Bungee';
+    font-family: 'Bungee';
 }
 
 .counter.positive {
-  color: green;
+    color: green;
 }
 
 .counter.negative {
-  color: red;
+    color: red;
 }
 
+.error {
+    display: none;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    font-weight: 600;
+}

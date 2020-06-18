@@ -15,9 +15,13 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Timeago jQuery function for timestamps -->
+    <script src="/scripts/timeago.js" type="text/javascript"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
@@ -41,28 +45,21 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
         <section class="new-tweet">
+
+            <div class="error"></div>
             <h2 class="gossip-here">Gossips</h2>
             <form method=POST id="form" action='/tweets/' class="form">
                 <!-- <label for="tweet-text" class="button-text">What are you gossipping about?</label> -->
                 <input name="text" id="tweet-text" placeholder="Gossip HERE"></input>
 
                 <div class="button-area">
-                    <button type="submit" class="gossip">Gossip</button>
+                    <button type="submit" id="button" class="gossip">Gossip</button>
                     <output name="counter" class="counter" for="tweet-text">140</output>
                 </div>
             </form>
         </section>
         <section id="tweet-container" class='list'>
-            <article class="tweet">
-                <div>
-                    <h4>Newton</h4>
-                    <div class="id">@newton</div>
-                </div>
-                <p class="gossipText">If I have seen whatever!</p>
-                <div class="footer">10 days ago
-                    <div class="socials">L F R</div>
-                </div>
-            </article>
+
 
         </section>
     </main>
