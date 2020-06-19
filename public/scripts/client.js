@@ -55,8 +55,8 @@ const loadTweets = function() {
 //renders the whole page
 
 $(document).ready(() => {
-    $('#link-to-text').click(function() {
-        $('#tweet-text').focus();
+    $("#link-to-text").click(function() {
+        $("#tweet-text").focus();
     });
     loadTweets();
 
@@ -90,7 +90,8 @@ $(document).ready(() => {
                 })
                 .then(function(res) {
                     loadTweets();
-                    $('#tweet-text').val("");
+                    $("#tweet-text").val("");
+                    $("#counter").val("140")
                 })
                 .catch((err) => {
                     console.log("error", err);

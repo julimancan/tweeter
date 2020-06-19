@@ -7,7 +7,7 @@
 
 .gossip {
     background-color: rgb(199, 6, 6);
-    font-family: 'Bungee';
+    font-family: "Bungee";
 }
 
 .button-text {
@@ -27,7 +27,7 @@ textarea {
 }
 
 .counter {
-    font-family: 'Bungee';
+    font-family: "Bungee";
 }
 
 .counter.positive {
