@@ -22,19 +22,15 @@ const createTweetElement = (tweetObj) => {
 
 
     const html = `<div class="tweet">
-            <section class="tweet-header">
-                <div class="avatar-name"><img src="${
-  tweetObj.user.avatars
-}"><h4>${tweetObj.user.name}</h4></div>
-			    <div class="id">${tweetObj.user.handle}</div>
-            </section>
-
-			<div class="gossipText">${escape(tweetObj.content.text)}</div>
-            
-            <div class="footer">${$.timeago(tweetObj.created_at)}
-             <div class="icons"><i class="fas fa-flag"></i> <i class="fas fa-retweet"></i> <i class="fas fa-heart"></i></div>
-            </div>
-	    </div>`;
+        <section class="tweet-header">
+        <div class="avatar-name"><img src="${tweetObj.user.avatars}"><h4>${tweetObj.user.name}</h4></div>
+			  <div class="id">${tweetObj.user.handle}</div>
+        </section>
+			  <div class="gossipText">${escape(tweetObj.content.text)}</div>  
+        <div class="footer">${$.timeago(tweetObj.created_at)}
+        <div class="icons"><i class="fas fa-flag"></i> <i class="fas fa-retweet"></i> <i class="fas fa-heart"></i></div>
+        </div>
+	      </div>`;
     $tweet.prepend(html);
 };
 
@@ -94,6 +90,7 @@ $(document).ready(() => {
                 })
                 .then(function(res) {
                     loadTweets();
+                    $('#tweet-text').val("");
                 })
                 .catch((err) => {
                     console.log("error", err);

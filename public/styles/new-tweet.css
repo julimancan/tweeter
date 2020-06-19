@@ -40,13 +40,12 @@ textarea {
 
 .error {
     display: none;
-    border: 1em solid;
-    margin: 10em 0em;
-    padding: 15em 10em 15em 50em;
+    border: .1 solid;
     background-repeat: no-repeat;
     background-position: 10em center;
     color: #D8000C;
     background-color: #FFBABA;
-    background-image: url('https://i.imgur.com/GnyDvKN.png');
     font-weight: 600;
+    max-height: 6em;
+    max-width: 100%;
 }

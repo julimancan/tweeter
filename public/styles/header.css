@@ -7,9 +7,6 @@
         background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
         justify-content: space-around;
     }
-    /* .avatar {
-    /* height: 1em; */
-    /* margin-left: 3em; */
     
     @media (min-width: 600px) {
         header {

@@ -16,12 +16,10 @@
     padding-right: 0.3em;
     max-height: 5em;
     border-width: 3em;
-    /* flex-grow: larger; */
 }
 
 .avatar-name {
     display: flex;
-    /* margin-top: 1em; */
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
