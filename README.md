@@ -21,3 +21,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Special Features:
+- Responsive design.
+- When the user clicks on "New Gossip" the user will land on the input text section.
+- If the user's mouse hovers over one of the tweets it gets highlighted and the text gets bolder for ease of read.
+- Word counter that turns red if the maximum number of characters is reached.
+- Error shows up if user inputs more characters than allowed and if there is no characters, the error dissapears after 4 seconds.
