@@ -1,7 +1,7 @@
 /*
  * Client-side JS logic goes here
  * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
+ * Reminder: Use (and do all your DOM work in) jQuery"s document ready function
  */
 
 //security feature to prevent js script from being inputted in the tweet section
@@ -55,8 +55,8 @@ const loadTweets = function() {
 //renders the whole page
 
 $(document).ready(() => {
-    $('#link-to-text').click(function() {
-        $('#tweet-text').focus();
+    $("#link-to-text").click(function() {
+        $("#tweet-text").focus();
     });
     loadTweets();
 
@@ -90,7 +90,7 @@ $(document).ready(() => {
                 })
                 .then(function(res) {
                     loadTweets();
-                    $('#tweet-text').val("");
+                    $("#tweet-text").val("");
                 })
                 .catch((err) => {
                     console.log("error", err);
