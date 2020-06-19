@@ -7,7 +7,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final Product
 
+### Mobile Screenshot
 !["mobile view"](https://github.com/julimancan/tweeter/blob/master/docs/gossiper%20mobile.JPG)
+
+### Desktop Screenshot
 !["desktop view"](https://github.com/julimancan/tweeter/blob/master/docs/gossiper%20desktop.JPG)
 
 ## Getting Started
